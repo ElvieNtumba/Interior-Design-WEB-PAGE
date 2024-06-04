@@ -3,3 +3,146 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.body{
+    display: flex;
+    position: relative;
+}
+
+.navbar{
+    background-color: #f44336;
+    width: 300px;
+    height: 100vh;
+}
+
+.logo{
+    /* border: 2px solid saddlebrown; */
+    height: 250px;
+    width: 268px;
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0vw;
+    padding: 110px 30px 0 30px;
+}
+
+.nav li{
+    /* border: 2px solid saddlebrown; */
+    padding: 10px 5px;
+    margin:0 20px;
+    list-style: none;
+}
+
+.nav li a{
+    /* border: 2px solid saddlebrown; */
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.nav li a:hover{
+    color: #000 !important;
+}
+
+.nav li:hover{
+    /* border: 2px solid saddlebrown; */
+    padding: 9px 0px;
+    background-color: #f1f1f1;
+    color: #000 !important;
+    margin:0 23px;
+}
+
+a{
+    /* border: 2px solid white; */
+    padding: 9px 180px 9px 5px;
+    margin: 0;
+}
+
+#line{
+    padding: 9px 200px 9px 5px; 
+}
+
+#line1{
+    padding: 9px 220px 9px 5px;
+}
+
+.navbar{
+    position: absolute;
+    /* safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.heading{
+    border: 2px solid saddlebrown;
+    width: 100%;
+    height: 250px; 
+}
+
+.banner-content{
+    border: 2px solid rebeccapurple; 
+    width: 100%;
+    height: 300vh;
+    padding: 60px;
+}
+
+.banner{
+    border: 2px solid saddlebrown;
+    /* padding: 10px; */
+    display: flex;
+    width: 100%;
+    min-width: 100%;
+    height: 170vh;
+    /* margin: 0 30px; */
+}
+
+.img1{
+    border: 2px solid saddlebrown;
+    height: 100%;
+    width: 500px;
+    margin-right: 5px;
+    /* width: 590px; */
+}
+
+.img2{
+    border: 2px solid saddlebrown;
+    height: 100%;
+    margin-left: 5px;
+    width: 500px;
+}
+
+.one{
+    border: 2px solid rebeccapurple; 
+    height: 40%;
+    margin-bottom: 10px;
+    /* margin: 6px; */
+}
+
+.two, .three{
+    border: 2px solid rebeccapurple; 
+    height: 30%;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.service{
+    border: 2px solid rebeccapurple;
+    min-width: 100%; 
+}
+
+.serviceh1{
+    border: 2px solid red;  
+    width: 100%;  
+}
+
+.servicepara{
+    border: 2px solid blue;
+    width: 100%;
+}
