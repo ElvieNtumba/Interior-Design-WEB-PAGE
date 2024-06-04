@@ -153,8 +153,48 @@ a{
     height: 50vh;
 }
 
+.designers{
+    border: 2px solid blue;
+}
+
 .designersh1{
-    border:2px solid red;
+    border:2px solid green;
     width:100%;
     height: 20vh;
+}
+
+.designerspara{
+    border:2px solid green ;
+    width: 100%;
+    height: 50vh;
+}
+
+.image{
+    border: 2px solid red;
+    display: flex;
+    /* padding: 10px; */
+}
+
+.designersimg1{
+    border: 2px solid green;
+    width: 100%;
+    height: 50vh;
+}
+
+.designersimg2{
+    border: 2px solid green;
+    width: 100%;
+    height: 50vh;
+}
+
+.designersimg3{
+    border: 2px solid green;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.text1{
+    border: 2px soild yellow;
+    margin: 5px;
 }
