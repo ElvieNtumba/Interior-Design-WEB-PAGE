@@ -146,7 +146,15 @@ hr{
     border: 2px solid rebeccapurple; 
     height: 40%;
     margin-bottom: 10px;
+    opacity: 70%;
+    backface-visibility: hidden;
     /* margin: 6px; */
+}
+
+.one:hover{
+    opacity: 100%;
+    background-color: #000;
+    cursor: pointer;
 }
 
 .two, .three{
@@ -154,6 +162,14 @@ hr{
     height: 30%;
     margin-bottom: 10px;
     width: 100%;
+    opacity: 70%;
+    backface-visibility: hidden;
+}
+
+.two:hover, .three:hover{
+    opacity: 100%;
+    background-color: #000;
+    cursor: pointer;
 }
 
 .service{
