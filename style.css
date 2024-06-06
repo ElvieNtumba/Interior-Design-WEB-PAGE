@@ -281,7 +281,7 @@ hr{
 }
 .flex-container{
     border: 3px solid blue;
-    height: 95vh;
+    height: 100%;
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
@@ -289,15 +289,17 @@ hr{
 }
 .pro{
     border: 3px solid black;
-    height: 95vh;
+    height: 100%;
     width:100%;
+    background-color: rgb(241, 241, 241);
 }
 
 .basic{
     border: 3px solid black;
-    height: 95vh;
+    height: 100%;
     width:100%;
     margin: 0 10px 0 0;
+    background-color: rgb(241, 241, 241);
 }
 .proh2{
     background-color:#f44336;
@@ -313,48 +315,55 @@ hr{
     /* width: 50%; */
 }
 .p7{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding: 20px;
     text-align: center;
 }
 .p8{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin:20px; */
     padding: 20px;
     text-align: center;
 }
 .p9{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding: 20px;
     text-align: center;
 }
 .p10{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding:20px;
     text-align: center;
 }
 .p11{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding: 20px;
     text-align: center;
 }
-.p12{
-    border: 2px solid grey;
-    /* margin: 20px; */
-    padding: 20px;
+.price{
+    border: 2px solid #ddd;
     text-align: center;
 }
-button{
-    border: 2px solid red;
-    height:14vh;
-    width:100%
-
+.button{
+    border: 2px solid #ddd;
+    height: 100%;
+    width:100%;
 }
  
+.p6 span ,.p12 span{
+    font-size: 35px;
+}
+
+.word{
+    border: 2px solid red;
+    font-size: 15px !important;
+    /* padding: 0 70px; */
+}
+
 .basich2{
     background-color :#616161;
     /* margin: 24px; */
@@ -375,52 +384,60 @@ button{
     color: #f44336;
 }
 
-    height: 15vh;
-    /* width: 50%; */
-}
 .p1{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding: 20px;
     text-align: center;
-
 }
 .p2{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding:20px;
     text-align: center;
 }
 .p3{
-    border:2px solid  grey ;
+    border:2px solid  #ddd;
     /* margin:20px; */
     padding: 20px;
     text-align: center;
 }
 .p4{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin:20px; */
     padding: 20px;
     text-align: center;
 }
 .p5{
-    border: 2px solid grey;
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding: 20px;
     text-align: center;
 }
-.p6{
-    border: 2px solid grey;
+.price{
+    border: 2px solid #ddd;
     /* margin: 20px; */
     padding:20px;
     text-align: center;
     font-size: large;
 }
+
+#orange{
+    background-color: #f44336;
+    border: hidden;
+    color: #f1f1f1;
+}
+
+#white{
+    background-color: #ffff;
+    border: hidden;
+}
+
 button{
-    border: 2px solid violet;
-    /* margin: 24px; */
-    padding: 30px;
-    text-align: center;
+    margin: 24px 170px;
+    width: 100px;
+    font-size: 20px;
+    padding: 10px;
 }
 .contact{
     border: 2px solid green;
