@@ -6,6 +6,7 @@
 
 body{
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 .body{
@@ -16,7 +17,7 @@ body{
 .navbar{
     background-color: #f44336;
     width: 300px;
-    height: 100vh;
+    height: 99.5vh;
 }
 
 .logo{
@@ -81,21 +82,22 @@ a{
 }
 
 .heading{
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     width: 100%;
     height: 250px; 
 }
 
 .banner-content{
-    border: 2px solid rebeccapurple; 
-    max-width: 100%;
+    /* border: 2px solid rebeccapurple;  */
+    max-width: 80%;
     width: 76vw;
-    height: 1000vh;
+    height: 100%;
     padding: 54px;
+    object-fit: contain;
 }
 
 .banner{
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     display: flex;
     width: 100%;
     min-width: 100%;
@@ -104,21 +106,21 @@ a{
 
 .headingh1{
     font-size: 65px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 30px 0 0px 0;
     padding: 0;
     font-weight: 500;
 }
 
 .headingh2{
-    border:2px solid red;
+    /* border:2px solid red; */
     font-size: 50px;
     font-weight: 500;
     color: #f44336;
 }
 
 hr{
-    border: 1px solid #f44336;
+    /* border: 1px solid #f44336; */
     border-radius: 8px;
     width: 70px;
     height: 8px;
@@ -126,21 +128,21 @@ hr{
 }
 
 .img1{
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     height: 90%;
     width: 700px;
     margin-right: 5px;
 }
 
 .img2{
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown; */
     height: 90%;
     margin-left: 5px;
     width: 700px;
 }
 
 .one{
-    border: 2px solid rebeccapurple; 
+    /* border: 2px solid rebeccapurple;  */
     height: 40%;
     margin-bottom: 10px;
     opacity: 70%;
@@ -154,7 +156,7 @@ hr{
 }
 
 .two, .three{
-    border: 2px solid rebeccapurple; 
+    /* border: 2px solid rebeccapurple;  */
     height: 30%;
     margin-bottom: 10px;
     width: 100%;
@@ -169,14 +171,14 @@ hr{
 }
 
 .service{
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     min-width: 100%; 
     height: 70vh;
     margin: 10px 0;
 }
 
 .serviceh1 h2{
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     width: 100%;  
     height: 13vh;
     font-size: 50px;
@@ -185,19 +187,19 @@ hr{
 }
 
 .servicepara{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 100%;
     height: 50vh;
     padding: 20px 30px 20px 0;
 }
 
 .designers{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin-bottom: 100px;
 }
 
 .designersh1 h2{
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     width: 100%;  
     height: 13vh;
     font-size: 50px;
@@ -206,13 +208,13 @@ hr{
 }
 
 .designerspara{
-    border:2px solid green ;
+    /* border:2px solid green ; */
     width: 100%;
-    height: 43vh;
+    height: 46vh;
 }
 
 .image{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     /* padding: 10px; */
@@ -223,7 +225,7 @@ hr{
 }
 
 .designersimg1{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 35%;
     height: 65vh;
     margin-right: 5px;
@@ -231,7 +233,7 @@ hr{
 }
 
 .designersimg2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 35%;
     height: 65vh;
     margin-right: 5px;
@@ -240,7 +242,7 @@ hr{
 }
 
 .designersimg3{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 35%;
     height: 65vh;
     margin-left: 5px;
@@ -248,7 +250,7 @@ hr{
 }
 
 .text1{
-    border: 2px soild yellow;
+    /* border: 2px soild yellow; */
     width: 100%;
     padding: 0px 20px;
 }
@@ -263,7 +265,7 @@ hr{
 }
 
 .packagesh1 h2{
-    border: 4px solid green;
+    /* border: 4px solid green; */
     width: 100%;
     height: 50vh; width: 100%;  
     height: 13vh;
@@ -274,13 +276,13 @@ hr{
     height: 13vh;
 }
 .packagespara{
-    border: 4px solid red ;
+    /* border: 4px solid red ; */
     height: 16vh;  
     width: 100%;  
     margin-top: 20px;
 }
 .flex-container{
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     height: 100%;
     margin: 50px 0;
     display: flex;
@@ -288,14 +290,14 @@ hr{
     background-color: #f1f1f1;
 }
 .pro{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 100%;
     width:100%;
     background-color: rgb(241, 241, 241);
 }
 
 .basic{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 100%;
     width:100%;
     margin: 0 10px 0 0;
@@ -359,7 +361,7 @@ hr{
 }
 
 .word{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 15px !important;
     /* padding: 0 70px; */
 }
@@ -376,7 +378,7 @@ hr{
 }
 
 .contacth1  h2{
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
     width: 100%;  
     height: 13vh;
     font-size: 50px;
@@ -449,7 +451,7 @@ button{
     padding: 10px;
 }
 .contact{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 13vh;
     width: 100%;
     font-weight:500 ;
@@ -466,13 +468,13 @@ button{
 
 
 hr{
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     height: 12px;
     width: 10vh;
 }
 
 .form{
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     height: 100%;
     /* font-size: px; */
 }
@@ -485,7 +487,7 @@ input{
     box-sizing: border-box;
   }
 .b2{
-border: 2px solid brown;
+/* border: 2px solid brown; */
 height: 50px;
 width: 100%;
 /* padding: 21xpx; */
