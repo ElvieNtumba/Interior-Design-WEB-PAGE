@@ -502,3 +502,42 @@ button:hover{
     background-color: rgb(241, 241, 241);
     color: #000;
 }
+
+
+/* For devices with a width less than 360px (small phones) */
+@media (max-width: 359px) {
+    * {
+        overflow: hidden; /* Added overflow hidden to every element */
+    }
+
+    .navbar {
+        width: 100px;
+    }
+
+    .banner-content {
+        padding: 10px;
+    }
+
+    .img1, .img2 {
+        width: 250px;
+    }
+
+    .headingh1 {
+        font-size: 30px;
+    }
+
+    .headingh2 {
+        font-size: 20px;
+    }
+
+    button {
+        margin: 24px 80px;
+        width: 50px;
+    }
+
+    /* Added .body class for small phones */
+    .body {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
