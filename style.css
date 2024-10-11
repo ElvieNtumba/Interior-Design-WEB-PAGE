@@ -12,15 +12,14 @@ body {
 .body {
     display: flex;
     position: relative;
+    margin: 0 auto;
 }
 
+/* Navbar */
 .navbar {
     background-color: #f44336;
     width: 300px;
     height: 99.5vh;
-    position: absolute;
-    top: 0;
-    z-index: 1;
 }
 
 .logo {
@@ -29,9 +28,11 @@ body {
     color: #f1f1f1;
     font-size: 24px;
     font-weight: 200;
+    letter-spacing: 0vw;
     padding: 110px 30px 0 30px;
 }
 
+/* Navigation */
 .nav li {
     padding: 10px 5px;
     margin: 0 20px;
@@ -52,9 +53,31 @@ body {
 .nav li:hover {
     padding: 9px 0px;
     background-color: #f1f1f1;
+    color: #000 !important;
     margin: 0 23px;
 }
 
+a {
+    padding: 9px 180px 9px 5px;
+    margin: 0;
+}
+
+#line {
+    padding: 9px 200px 9px 5px;
+}
+
+#line1 {
+    padding: 9px 220px 9px 5px;
+}
+
+/* Sticky navbar */
+.navbar {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/* Heading and Banner */
 .heading {
     width: 100%;
     height: 250px;
@@ -65,17 +88,21 @@ body {
     width: 76vw;
     height: 100%;
     padding: 54px;
+    object-fit: contain;
 }
 
 .banner {
     display: flex;
     width: 100%;
+    min-width: 100%;
     height: 140vh;
 }
 
 .headingh1 {
     font-size: 65px;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
+    padding: 0;
+    font-weight: 500;
 }
 
 .headingh2 {
@@ -91,78 +118,7 @@ hr {
     background-color: #f44336;
 }
 
-.img1, .img2 {
-    height: 90%;
-    width: 700px;
-}
-
-.one {
-    height: 40%;
-    margin-bottom: 10px;
-    opacity: 70%;
-    backface-visibility: hidden;
-}
-
-.one:hover, .two:hover, .three:hover {
-    opacity: 100%;
-    background-color: #000;
-    cursor: pointer;
-}
-
-.service, .designers {
-    min-width: 100%;
-    height: 70vh;
-    margin: 10px 0;
-}
-
-.designersimg1, .designersimg2, .designersimg3 {
-    width: 35%;
-    height: 65vh;
-    background-color: rgb(241, 241, 241);
-}
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px 0;
-    background-color: #f1f1f1;
-}
-
-.contact {
-    height: 13vh;
-    width: 100%;
-    font-size: 50px;
-    font-weight: 500;
-    color: #f44336;
-}
-
-button {
-    margin: 24px 170px;
-    width: 100px;
-    font-size: 20px;
-    padding: 10px;
-}
-
-button:hover {
-    background-color: rgb(241, 241, 241);
-    color: #000;
-}
-
-input {
-    width: 100%;
-    height: 8px;
-    padding: 24px 30px;
-    box-sizing: border-box;
-}
-
-.b2 {
-    height: 50px;
-    width: 100%;
-    background-color: #f44336;
-    color: lightgray;
-}
-
-/* For large desktops (min-width: 1200px) */
+/* Responsive media queries */
 @media (min-width: 1200px) {
     .navbar {
         width: 250px;
@@ -173,19 +129,14 @@ input {
     .img1, .img2 {
         width: 600px;
     }
-    .headingh1 {
-        font-size: 60px;
-    }
-    .headingh2 {
+    .packagesh1 h2 {
         font-size: 45px;
     }
     .body {
-        /* margin: 0 auto; */
         max-width: 1200px;
     }
 }
 
-/* For medium desktops (992px to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px) {
     .navbar {
         width: 200px;
@@ -202,13 +153,14 @@ input {
     .headingh2 {
         font-size: 40px;
     }
+    .packagesh1 h2 {
+        font-size: 40px;
+    }
     .body {
-        /* margin: 0 auto; */
         max-width: 1000px;
     }
 }
 
-/* For tablets (768px to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar {
         width: 180px;
@@ -225,19 +177,25 @@ input {
     .headingh2 {
         font-size: 35px;
     }
+    .packagesh1 h2 {
+        font-size: 35px;
+    }
+    button {
+        margin: 24px 140px;
+        width: 80px;
+    }
     .body {
-        /* margin: 0 auto; */
         max-width: 900px;
     }
 }
 
-/* For small tablets (576px to 767px) */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
         width: 150px;
     }
     .banner-content {
         width: 90%;
+        padding: 30px;
     }
     .img1, .img2 {
         width: 350px;
@@ -248,16 +206,20 @@ input {
     .headingh2 {
         font-size: 30px;
     }
+    button {
+        width: 75px;
+    }
     .body {
-        /* margin: 0 auto; */
         max-width: 700px;
     }
 }
 
-/* For phones (360px to 575px) */
 @media (min-width: 360px) and (max-width: 575px) {
     .navbar {
         width: 120px;
+    }
+    .banner-content {
+        padding: 20px;
     }
     .img1, .img2 {
         width: 300px;
@@ -268,16 +230,21 @@ input {
     .headingh2 {
         font-size: 25px;
     }
+    button {
+        margin: 24px 100px;
+        width: 60px;
+    }
     .body {
-        /* margin: 0 auto; */
         max-width: 500px;
     }
 }
 
-/* For small phones (max-width: 359px) */
 @media (max-width: 359px) {
     .navbar {
         width: 100px;
+    }
+    .banner-content {
+        padding: 10px;
     }
     .img1, .img2 {
         width: 250px;
@@ -288,8 +255,11 @@ input {
     .headingh2 {
         font-size: 20px;
     }
+    button {
+        margin: 24px 80px;
+        width: 50px;
+    }
     .body {
-        /* margin: 0 auto; */
         max-width: 320px;
     }
 }
