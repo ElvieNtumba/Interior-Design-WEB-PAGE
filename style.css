@@ -502,3 +502,166 @@ button:hover{
     background-color: rgb(241, 241, 241);
     color: #000;
 }
+
+/* For devices with a width of 1200px or more (large desktops) */
+@media (min-width: 1200px) {
+    .navbar {
+      width: 250px;
+    }
+  
+    .banner {
+      height: 100vh;
+    }
+  
+    .img1, .img2 {
+      width: 600px;
+    }
+  
+    .packagesh1 h2 {
+      font-size: 45px;
+    }
+  }
+  
+  /* For devices with a width between 992px and 1200px (medium desktops) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+      width: 200px;
+    }
+  
+    .banner-content {
+      padding: 40px;
+    }
+  
+    .img1, .img2 {
+      width: 500px;
+    }
+  
+    .headingh1 {
+      font-size: 55px;
+    }
+  
+    .headingh2 {
+      font-size: 40px;
+    }
+  
+    .packagesh1 h2 {
+      font-size: 40px;
+    }
+  }
+  
+  /* For devices with a width between 768px and 991px (tablets) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+      width: 180px;
+    }
+  
+    .banner-content {
+      width: 85%;
+    }
+  
+    .img1, .img2 {
+      width: 400px;
+    }
+  
+    .headingh1 {
+      font-size: 50px;
+    }
+  
+    .headingh2 {
+      font-size: 35px;
+    }
+  
+    .packagesh1 h2 {
+      font-size: 35px;
+    }
+  
+    button {
+      margin: 24px 140px;
+      width: 80px;
+    }
+  }
+  
+  /* For devices with a width between 576px and 767px (small tablets) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .navbar {
+      width: 150px;
+    }
+  
+    .banner-content {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    .img1, .img2 {
+      width: 350px;
+    }
+  
+    .headingh1 {
+      font-size: 45px;
+    }
+  
+    .headingh2 {
+      font-size: 30px;
+    }
+  
+    button {
+      width: 75px;
+    }
+  }
+  
+  /* For devices with a width between 360px and 575px (phones) */
+  @media (min-width: 360px) and (max-width: 575px) {
+    .navbar {
+      width: 120px;
+    }
+  
+    .banner-content {
+      padding: 20px;
+    }
+  
+    .img1, .img2 {
+      width: 300px;
+    }
+  
+    .headingh1 {
+      font-size: 35px;
+    }
+  
+    .headingh2 {
+      font-size: 25px;
+    }
+  
+    button {
+      margin: 24px 100px;
+      width: 60px;
+    }
+  }
+  
+  /* For devices with a width less than 360px (small phones) */
+  @media (max-width: 359px) {
+    .navbar {
+      width: 100px;
+    }
+  
+    .banner-content {
+      padding: 10px;
+    }
+  
+    .img1, .img2 {
+      width: 250px;
+    }
+  
+    .headingh1 {
+      font-size: 30px;
+    }
+  
+    .headingh2 {
+      font-size: 20px;
+    }
+  
+    button {
+      margin: 24px 80px;
+      width: 50px;
+    }
+  }
+  
