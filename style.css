@@ -520,6 +520,12 @@ button:hover{
     .packagesh1 h2 {
       font-size: 45px;
     }
+  
+    /* Added .body class for large desktops */
+    .body {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
   }
   
   /* For devices with a width between 992px and 1200px (medium desktops) */
@@ -546,6 +552,12 @@ button:hover{
   
     .packagesh1 h2 {
       font-size: 40px;
+    }
+  
+    /* Added .body class for medium desktops */
+    .body {
+      margin: 0 auto;
+      max-width: 1000px;
     }
   }
   
@@ -579,6 +591,12 @@ button:hover{
       margin: 24px 140px;
       width: 80px;
     }
+  
+    /* Added .body class for tablets */
+    .body {
+      margin: 0 auto;
+      max-width: 900px;
+    }
   }
   
   /* For devices with a width between 576px and 767px (small tablets) */
@@ -606,6 +624,12 @@ button:hover{
   
     button {
       width: 75px;
+    }
+  
+    /* Added .body class for small tablets */
+    .body {
+      margin: 0 auto;
+      max-width: 700px;
     }
   }
   
@@ -635,6 +659,12 @@ button:hover{
       margin: 24px 100px;
       width: 60px;
     }
+  
+    /* Added .body class for phones */
+    .body {
+      margin: 0 auto;
+      max-width: 500px;
+    }
   }
   
   /* For devices with a width less than 360px (small phones) */
@@ -662,6 +692,12 @@ button:hover{
     button {
       margin: 24px 80px;
       width: 50px;
+    }
+  
+    /* Added .body class for small phones */
+    .body {
+      margin: 0 auto;
+      max-width: 320px;
     }
   }
   
