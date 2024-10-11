@@ -180,7 +180,7 @@ input {
         font-size: 45px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 1200px;
     }
 }
@@ -203,7 +203,7 @@ input {
         font-size: 40px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 1000px;
     }
 }
@@ -226,7 +226,7 @@ input {
         font-size: 35px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 900px;
     }
 }
@@ -249,7 +249,7 @@ input {
         font-size: 30px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 700px;
     }
 }
@@ -269,7 +269,7 @@ input {
         font-size: 25px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 500px;
     }
 }
@@ -289,7 +289,7 @@ input {
         font-size: 20px;
     }
     .body {
-        margin: 0 auto;
+        /* margin: 0 auto; */
         max-width: 320px;
     }
 }
